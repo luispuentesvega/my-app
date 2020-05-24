@@ -5,5 +5,5 @@ steps:
   - name: dronetest
     image: node
     commands:
-      npm install
-      npm test
+      - npm install
+      - npm test
